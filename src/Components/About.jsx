@@ -16,12 +16,13 @@ const About = () => {
           </p>
         </div>
         <div className="flex flex-wrap -m-4 text-center items-stretch">
-          <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/4 w-1/2 w-full">
             <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
               <img
                 src="images/card1.png"
                 alt=""
-                style={{ width: "80px", height: "80px" }}
+                // style={{ width: "80px", height: "80px" }}
+                className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-lobster font-medium text-2xl text-gray-900 py-5">
                 Удобная оплата
@@ -33,12 +34,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/4 w-1/2 w-full">
             <div className="border-2 place-content-center border-red-500 px-2 py-6 rounded-lg">
               <img
                 src="images/card2.png"
                 alt=""
-                style={{ width: "80px", height: "80px" }}
+                // style={{ width: "80px", height: "80px" }}
+                className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-medium font-lobster text-2xl text-gray-900 py-5">
                 Подарочная упаковка
@@ -49,12 +51,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
+          <div className="p-4 md:w-1/4 w-1/2 w-full">
             <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
               <img
                 src="images/card3.png"
                 alt=""
-                style={{ width: "80px", height: "80px" }}
+                // style={{ width: "80px", height: "80px" }}
+                className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-medium font-lobster text-2xl text-gray-900 py-5">
                 Фото перед доставкой
@@ -65,13 +68,13 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/4 sm:w-1/2 w-full  min-h-full">
+          <div className="p-4 w-1/2 md:w-1/4 w-full  min-h-full">
             <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
               <img
-                className="max-h-full"
                 src="images/card4.png"
                 alt=""
-                style={{ width: "80px", height: "80px" }}
+                // style={{ width: "80px", height: "80px" }}
+                className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-medium font-lobster text-2xl text-gray-900 py-5">
                 Бесплатная доставка
