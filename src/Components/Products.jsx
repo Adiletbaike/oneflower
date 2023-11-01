@@ -1,6 +1,7 @@
 import React from "react";
 import productsData from "./productsData";
 import { BsWhatsapp } from "react-icons/bs";
+import Image from "next/image";
 
 const Products = () => {
   return (
@@ -12,9 +13,14 @@ const Products = () => {
         <div className="flex flex-wrap -m-3">
           {productsData.map((value, index) => {
             return (
-              <div className="lg:w-60 md:w-1/2 p-1 pb-4 m-1 mt-3 rounded-lg border-1 shadow-lg" key={index}>
+              <div
+                className="lg:w-60 md:w-1/2 p-1 pb-4 m-1 mt-3 rounded-lg border-1 shadow-lg"
+                key={index}
+              >
                 <a className="block static w-full h-80 rounded overflow-hidden">
-                  <img
+                  <Image
+                    width={1920}
+                    height={1080}
                     alt="ecommerce"
                     className="object-cover object-center hover:static hover:scale-110 duration-500 w-full h-full block"
                     src={value.image}
