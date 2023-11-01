@@ -31,12 +31,12 @@ const Header = () => {
     <header className="bg-gray-400 text-black bg-opacity-80 body-font fixed w-full font-serif">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-bold items-center text-gray-900 mb-4 md:mb-0">
-          <BsFlower1 className="text-xl text-red-600" />
+          <BsFlower1 className="text-5xl text-red-600" />
           <span className="ml-3 text-2xl font-bold">OneFlower</span>
         </a>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-5 cursor-pointer md:hidden"
+          className="text-3xl absolute right-8 top-7 cursor-pointer md:hidden"
         >
           {open ? <RiCloseCircleLine /> : <RiMenu4Fill />}
         </div>

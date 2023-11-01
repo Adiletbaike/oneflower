@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const Hero = () => {
   return (
-    <section className="bg-[url(https://cdn.pixabay.com/photo/2019/01/09/13/24/red-rose-3923287_1280.jpg)] bg-no-repeat bg-cover md:bg-right text-gray-600 body-font h-screen"  id="hero">
+    <section className="bg-[url(https://cdn.pixabay.com/photo/2019/01/09/13/24/red-rose-3923287_1280.jpg)] bg-no-repeat bg-cover bg-right text-gray-600 body-font h-screen"  id="hero">
       <div className="container mx-auto  flex px-5 py-40 md:flex-row flex-col items-center">
         <div className="bg-gray-400 bg-opacity-50 rounded-lg p-4 md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font font-lobster tracking-widest sm:text-6xl text-4xl mb-4 font-bold text-gray-900">
