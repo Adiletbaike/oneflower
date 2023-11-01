@@ -82,8 +82,9 @@ const Header = () => {
           </a>
           <button className="inline-flex items-center bg-green-400 border-2 border-green-700 py-1 px-3 focus:outline-none hover:bg-green-500 duration-500 rounded-full text-base mt-4 md:mt-0">
             <a
-              href="https://wa.me/996703041099"
+              href="https://wa.me/996770023478"
               className="inline-flex items-center "
+              target="_blank"
             >
               Whatsapp
               <BsWhatsapp className="m-2" />

@@ -16,25 +16,40 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500">
+                <a
+                  target="_blank"
+                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                >
                   <SiInstagram className="mr-5" />
                   one_flower_bishkek
                 </a>
               </li>
               <li>
-                <a className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500">
+                <a
+                  href="https://wa.me/996770023478"
+                  target="_blank"
+                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                >
                   <BsWhatsapp className="mr-5" />
                   +996 770 02 34 78
                 </a>
               </li>
               <li>
-                <a className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500">
+                <a
+                href="tel:996770023478"
+                  target="_blank"
+                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                >
                   <BsTelephoneInboundFill className="mr-5" />
                   +996 770 02 34 78
                 </a>
               </li>
               <li>
-                <a className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500">
+                <a
+                  href="https://maps.app.goo.gl/DBGW7fKrZdqfbA488"
+                  target="_blank"
+                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                >
                   <ImLocation className="mr-5" />
                   Ибраимова 29/2
                 </a>
