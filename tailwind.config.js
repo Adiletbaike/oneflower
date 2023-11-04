@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors : {
+        'nurti' : '#262846'
+      },
       fontFamily: {
         lobster: ["Lobster", "sans-serif"],
       },

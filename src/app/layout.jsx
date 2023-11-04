@@ -13,9 +13,9 @@ const Layout = ({ children }) => {
       <body>
         <Header />
         <Hero/>
-        <About/>
         <Catalog/>
         <Products/>
+        <About/>
         <Footer/>
       </body>
     </html>
