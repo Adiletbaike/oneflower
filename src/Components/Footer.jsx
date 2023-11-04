@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://go.2gis.com/9kdbu"
+                  href="https://2gis.kg/bishkek/geo/70030076165570403?m=74.617881%2C42.866184%2F18.26"
                   target="_blank"
                   className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >

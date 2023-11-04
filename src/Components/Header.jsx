@@ -36,7 +36,7 @@ const Header = () => {
         </a>
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-7 cursor-pointer md:hidden"
+          className="text-3xl absolute text-white right-8 top-7 cursor-pointer md:hidden"
         >
           {open ? <RiCloseCircleLine /> : <RiMenu4Fill />}
         </div>
