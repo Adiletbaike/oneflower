@@ -17,6 +17,7 @@ const Footer = () => {
             <nav className="list-none mb-10">
               <li>
                 <a
+                  href="https://www.instagram.com/one_flower_bishkek/"
                   target="_blank"
                   className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
@@ -36,7 +37,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                href="tel:996770023478"
+                  href="tel:996770023478"
                   target="_blank"
                   className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
@@ -46,7 +47,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://maps.app.goo.gl/DBGW7fKrZdqfbA488"
+                  href="https://go.2gis.com/9kdbu"
                   target="_blank"
                   className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
