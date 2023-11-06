@@ -90,6 +90,7 @@ const Footer = () => {
                   width="auto"
                   height="auto"
                   style={{ border: 0 }}
+                  className="rounded-lg"
                 ></iframe>
                 {/* <Map /> */}
               </div>
