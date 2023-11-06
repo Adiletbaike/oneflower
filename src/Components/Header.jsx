@@ -2,13 +2,13 @@
 import React, { useEffect, useState } from "react";
 import { LuFlower2 } from "react-icons/lu";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { RiMenu4Fill } from "react-icons/ri";
 import { RiCloseCircleLine } from "react-icons/ri";
 import Link from "next/link";
 
 const Header = () => {
   useEffect(() => {
-    // Smooth scroll behavior when clicking on internal links
     const internalLinks = document.querySelectorAll('a[href^="#"]');
     internalLinks.forEach((link) => {
       link.addEventListener("click", smoothScroll);
@@ -28,10 +28,11 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const closeMenu = () => setOpen(false);
   return (
-    <header className="bg-nurti text-black bg-opacity-80 body-font fixed w-full font-serif">
+    <header className="bg-nurti z-10 text-black bg-opacity-80 body-font fixed w-full font-serif">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-bold items-center text-gray-900 mb-4 md:mb-0">
-          <LuFlower2 className="text-5xl text-red-600" />
+          {/* <LuFlower2 className="text-5xl text-red-600" /> */}
+          <img width="48" height="48" src="https://img.icons8.com/color/48/tudor-rose.png" alt="tudor-rose"/>
           <span className="ml-3 text-3xl text-white font-bold">OneFlower</span>
         </a>
         <div
@@ -48,35 +49,35 @@ const Header = () => {
           <Link
             href="#hero"
             onClick={closeMenu}
-            className="mr-5 hover:text-gray-900 hover:underline py-4 hover:underline-offset-8 text-lg font-medium"
+            className="mr-5 e py-4 text-lg font-medium"
           >
             Главная
           </Link>
           <Link
             href="#catalog"
             onClick={closeMenu}
-            className="mr-5 hover:text-gray-900 hover:underline py-4 hover:underline-offset-8 text-lg font-medium"
+            className="mr-5 py-4 text-lg font-medium"
           >
             Каталог
           </Link>
           <Link
             href="#products"
             onClick={closeMenu}
-            className="mr-5 hover:text-gray-900 hover:underline py-4 hover:underline-offset-8 text-lg font-medium"
+            className="mr-5 py-4 text-lg font-medium"
           >
             Цветы
           </Link>
           <Link
             href="#about"
             onClick={closeMenu}
-            className="mr-5 hover:text-gray-900 hover:underline py-4 hover:underline-offset-8 text-lg font-medium"
+            className="mr-5 py-4 text-lg font-medium"
           >
             О нас
           </Link>
           <Link
             href="#contact"
             onClick={closeMenu}
-            className="mr-5 hover:text-gray-900 hover:underline py-4 hover:underline-offset-8 text-lg font-medium"
+            className="mr-5 py-4 text-lg font-medium"
           >
             Контакты
           </Link>
@@ -88,6 +89,16 @@ const Header = () => {
             >
               Whatsapp
               <BsWhatsapp className="m-2" />
+            </a>
+          </button>
+          <button className="inline-flex ml-0 md:ml-2 text-black items-center bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 hover:from-orange-500 hover:via-red-600 hover:to-pink-600 border-2 border-red-400 py-1 px-3 focus:outline-none transition duration-500 rounded-full text-base mt-4 md:mt-0">
+            <a
+              href="https://instagram.com/one_flower_bishkek"
+              className="inline-flex items-center "
+              target="_blank" 
+            >
+              Instagram
+              <BsInstagram className="m-2" />
             </a>
           </button>
         </nav>

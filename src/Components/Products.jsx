@@ -14,7 +14,7 @@ const Products = () => {
           {productsData.map((value, index) => {
             return (
               <div
-                className="lg:w-60 md:w-1/2 p-1 pb-4 m-1 mt-3 rounded-lg border-1 shadow-lg"
+                className="lg:w-60 md:w-1/2 p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
                 key={index}
               >
                 <a className="block static w-full h-80 rounded overflow-hidden">

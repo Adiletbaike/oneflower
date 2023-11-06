@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="text-gray-600 body-font" id="about">
+    <section className="bg-gray-100 text-gray-600 body-font" id="about">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl font-lobster text-2xl font-bold title-font mb-4 text-gray-900">
@@ -17,9 +17,9 @@ const About = () => {
         </div>
         <div className="flex flex-wrap -m-4 text-center items-stretch">
           <div className="p-4 md:w-1/4 w-1/2 w-full">
-            <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
+            <div className="border-2 border-nurti px-2 py-6 rounded-lg">
               <img
-                src="images/card1.png"
+                src="images/icons8-card-96.png"
                 alt=""
                 // style={{ width: "80px", height: "80px" }}
                 className="inline-block h-auto w-auto"
@@ -35,9 +35,9 @@ const About = () => {
             </div>
           </div>
           <div className="p-4 md:w-1/4 w-1/2 w-full">
-            <div className="border-2 place-content-center border-red-500 px-2 py-6 rounded-lg">
+            <div className="border-2 place-content-center border-nurti px-2 py-6 rounded-lg">
               <img
-                src="images/card2.png"
+                src="images/icons8-christmas-gift-96.png"
                 alt=""
                 // style={{ width: "80px", height: "80px" }}
                 className="inline-block h-auto w-auto"
@@ -52,9 +52,9 @@ const About = () => {
             </div>
           </div>
           <div className="p-4 md:w-1/4 w-1/2 w-full">
-            <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
+            <div className="border-2 border-nurti px-2 py-6 rounded-lg">
               <img
-                src="images/card3.png"
+                src="images/icons8-market-square-96.png"
                 alt=""
                 // style={{ width: "80px", height: "80px" }}
                 className="inline-block h-auto w-auto"
@@ -69,9 +69,9 @@ const About = () => {
             </div>
           </div>
           <div className="p-4 w-1/2 md:w-1/4 w-full  min-h-full">
-            <div className="border-2 border-red-500 px-2 py-6 rounded-lg">
+            <div className="border-2 border-nurti px-2 py-6 rounded-lg">
               <img
-                src="images/card4.png"
+                src="images/icons8-motorcycle-delivery-multiple-boxes-96.png"
                 alt=""
                 // style={{ width: "80px", height: "80px" }}
                 className="inline-block h-auto w-auto"

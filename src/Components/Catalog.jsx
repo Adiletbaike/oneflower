@@ -13,7 +13,7 @@ const Catalog = () => {
               <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
                 <img
                   alt="gallery"
-                  className="w-full object-cover h-full object-center block opacity-50 absolute inset-0"
+                  className="w-full object-cover h-full object-center block opacity-50 z-0 absolute inset-0"
                   src="https://tsvetomania.ru/upload/resize_cache/iblock/d26/710_605_1/d261c1882ee10cfb75fa1b2b34626002.jpg"
                 />
                 <div className="text-center relative z-10 w-full">

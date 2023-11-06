@@ -1,5 +1,6 @@
 import React from "react";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -18,20 +19,29 @@ const Hero = () => {
             <li>Всегда свежие цветы</li>
           </ul>
           <div className="flex justify-center">
-            <button className="inline-flex text-black border-2 border-green-700 bg-green-400 hover:bg-green-500 duration-500 border-0 py-2 px-6 focus:outline-none  rounded text-lg">
+            <button className="inline-flex text-white border-2 mr-2 border-white bg-nurti hover:bg-green-500 duration-500 p-2 focus:outline-none  rounded-full  text-lg">
+              <a
+                href="https:/wa.me/996770023478"
+                target="_blank"
+                className="inline-flex items-center"
+              >
+                <BsWhatsapp className="m-1" />
+              </a>
+            </button>
+            <button className="inline-flex text-white border-2 border-white bg-nurti hover:bg-gradient-to-r hover:from-orange-500 hover:via-red-600 hover:to-pink-600 duration-500 p-2 focus:outline-none  rounded-full text-lg">
               <a
                 href="https://996770023478"
                 target="_blank"
                 className="inline-flex items-center"
               >
-                Заказать по Whatsapp <BsWhatsapp className="m-1 ml-2" />
+                <BsInstagram className="m-1" />
               </a>
             </button>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
           <img
-            className="object-cover object-top rounded  t-10 h-full"
+            className="hidden md:inline object-cover object-top rounded  t-10 h-full"
             alt="hero"
             // style={{width: "1000px", height: "1000px" }}
             src="images/flower-5.png"
