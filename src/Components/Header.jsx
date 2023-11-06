@@ -28,7 +28,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const closeMenu = () => setOpen(false);
   return (
-    <header className="bg-nurti z-10 text-black bg-opacity-80 body-font fixed w-full font-serif">
+    <header className="bg-nurti z-20 text-black bg-opacity-80 body-font fixed w-full font-serif">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-bold items-center text-gray-900 mb-4 md:mb-0">
           {/* <LuFlower2 className="text-5xl text-red-600" /> */}
