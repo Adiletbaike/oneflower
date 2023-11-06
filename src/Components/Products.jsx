@@ -14,10 +14,10 @@ const Products = () => {
           {productsData.map((value, index) => {
             return (
               <div
-                className="lg:w-60 md:w-1/2 p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
+                className="lg:w-60 md:w-1/2 w-auto p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
                 key={index}
               >
-                <a className="block static w-full h-64 rounded overflow-hidden">
+                <a className="block static w-full h-48 md:h-60 rounded overflow-hidden">
                   <Image
                     width={1920}
                     height={1080}
@@ -39,9 +39,9 @@ const Products = () => {
                   <button className="inline-flex text-black bg-green-400 hover:bg-green-500 duration-500 border-0 py-1 px-2 focus:outline-none  rounded text-sm">
                     <a
                       href="https://996778217044"
-                      className="inline-flex items-center"
+                      className="inline-flex items-center text-xs md:text-base"
                     >
-                      Заказать по Whatsapp <BsWhatsapp className="m-1 ml-2" />
+                      Заказать по Whatsapp <BsWhatsapp className="m-1 ml-2 text-xs" />
                     </a>
                   </button>
                 </div>
