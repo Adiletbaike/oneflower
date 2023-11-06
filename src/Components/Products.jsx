@@ -17,7 +17,7 @@ const Products = () => {
                 className="lg:w-60 md:w-1/2 w-auto p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
                 key={index}
               >
-                <a className="block static w-full h-48 md:h-60 rounded overflow-hidden">
+                <a className="block static w-36 md:w-full h-48 md:h-60 rounded overflow-hidden">
                   <Image
                     width={1920}
                     height={1080}
@@ -41,7 +41,7 @@ const Products = () => {
                       href="https://996778217044"
                       className="inline-flex items-center text-xs md:text-base"
                     >
-                      Заказать по Whatsapp <BsWhatsapp className="m-1 ml-2 text-xs" />
+                      Заказать по <BsWhatsapp className="m-1 ml-2 text-xs" />
                     </a>
                   </button>
                 </div>
