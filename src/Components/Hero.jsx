@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <button className="inline-flex text-white border-2 mr-2 border-white bg-nurti hover:bg-green-500 duration-500 p-2 focus:outline-none  rounded-full  text-lg">
               <a
-                href="https:/wa.me/996770023478"
+                href="https://wa.me/996770023478"
                 target="_blank"
                 className="inline-flex items-center"
               >
@@ -30,7 +30,7 @@ const Hero = () => {
             </button>
             <button className="inline-flex text-white border-2 border-white bg-nurti hover:bg-gradient-to-r hover:from-orange-500 hover:via-red-600 hover:to-pink-600 duration-500 p-2 focus:outline-none  rounded-full text-lg">
               <a
-                href="https://996770023478"
+                href="https://instagram.com/one_flower_bishkek"
                 target="_blank"
                 className="inline-flex items-center"
               >

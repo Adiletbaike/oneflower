@@ -71,7 +71,7 @@ const productsData = [
     },
     {
         name : 'Ромашка',
-        image : '/images//flowers/IMG_4371.jpg',
+        image : '/images/flowers/IMG_4371.jpg',
         price : '2000 som'
     },
     {
