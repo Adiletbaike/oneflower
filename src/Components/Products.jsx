@@ -17,7 +17,7 @@ const Products = () => {
                 className="lg:w-60  w-size p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
                 key={index}
               >
-                <a className="block static w-full md:w-full h-40 md:h-60 rounded overflow-hidden">
+                <a className="block static w-full border-2 border-nurti md:w-full h-40 md:h-60 rounded overflow-hidden">
                   <Image
                     width={1920}
                     height={1080}
