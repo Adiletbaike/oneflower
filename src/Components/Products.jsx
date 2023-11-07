@@ -10,14 +10,14 @@ const Products = () => {
         <h1 className="sm:text-3xl text-2xl font-lobster text-center font-bold title-font mb-4 text-gray-900">
           Цветы
         </h1>
-        <div className="flex flex-wrap -ml-1">
+        <div className="flex flex-wrap justify-center">
           {productsData.map((value, index) => {
             return (
               <div
                 className="lg:w-60  w-auto p-1 pb-4 m-1 mt-3 rounded-lg border-2 border-nurti shadow-lg"
                 key={index}
               >
-                <a className="block static w-40 md:w-full h-40 md:h-60 rounded overflow-hidden">
+                <a className="block static w-32 md:w-full h-40 md:h-60 rounded overflow-hidden">
                   <Image
                     width={1920}
                     height={1080}
