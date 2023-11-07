@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width : {
+        'size' : '47%'
+      },
       colors : {
         'nurti' : '#262846'
       },
