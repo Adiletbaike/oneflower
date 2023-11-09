@@ -98,17 +98,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gray-100">
+      <div className="bg-nurti">
         <div className="container px-5 py-4 mx-auto flex justify-between items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             {/* <BsFlower1 className="text-xl text-red-600" /> */}
             <img
               width="32"
               height="32"
-              src="https://img.icons8.com/color/48/tudor-rose.png"
-              alt="tudor-rose"
+              src="/images/icons8-flower-96.png"
+              alt="flower"
+              className="opacity-40"
             />
-            <span className="ml-3 text-xl text-bold">OneFlower</span>
+            <span className="ml-2 text-2xl text-bold opacity-40">OneFlower</span>
           </a>
           <p className="text-sm text-gray-500 justify-end sm:ml-6 sm:mt-0 mt-4">
             © 2023 OneFlower

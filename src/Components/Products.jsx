@@ -47,6 +47,7 @@ const Products = () => {
                     <a
                       href="https://996778217044"
                       className="inline-flex items-center text-xs md:text-base"
+                      
                     >
                       Заказать по <BsWhatsapp className="m-1 ml-2 text-xs" />
                     </a>
