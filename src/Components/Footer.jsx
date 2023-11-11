@@ -40,7 +40,7 @@ const Footer = () => {
                 <a
                   href="https://www.instagram.com/one_flower_bishkek/"
                   target="_blank"
-                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                  className="flex items-center text-white underline leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
                   <SiInstagram className="mr-5" />
                   one_flower_bishkek
@@ -50,7 +50,7 @@ const Footer = () => {
                 <a
                   href="https://wa.me/996770023478"
                   target="_blank"
-                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                  className="flex items-center text-white underline leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
                   <BsWhatsapp className="mr-5" />
                   +996 770 02 34 78
@@ -60,7 +60,7 @@ const Footer = () => {
                 <a
                   href="tel:996770023478"
                   target="_blank"
-                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                  className="flex items-center text-white underline leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
                   <BsTelephoneInboundFill className="mr-5" />
                   +996 770 02 34 78
@@ -70,7 +70,7 @@ const Footer = () => {
                 <a
                   href="https://2gis.kg/bishkek/geo/70030076165570403?m=74.617881%2C42.866184%2F18.26"
                   target="_blank"
-                  className="flex items-center text-white leading-8 hover:text-gray-300 hover:text-lg duration-500"
+                  className="flex items-center text-white underline leading-8 hover:text-gray-300 hover:text-lg duration-500"
                 >
                   <ImLocation className="mr-5" />
                   Ибраимова 29/2

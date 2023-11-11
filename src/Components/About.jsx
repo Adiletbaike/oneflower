@@ -27,10 +27,11 @@ const About = () => {
               <h2 className="title-font font-lobster font-medium text-2xl text-gray-900 py-5">
                 Удобная оплата
               </h2>
-              <p className="leading-relaxed" style={{ height: "150px" }}>
-                Картами: VISA, Mastercard, ЭЛКАРТ, Maestro Электроные кошельки:
-                O! деньги и Balance.kg Оплата через терминалы: UMAI, ОНОЙ,
-                QUICKPAY
+              <p className="leading-relaxed text-sm" style={{ height: "150px" }}>
+                Принимаем оплаты с России через приложения
+                Сбербанк, Тиньков по номеру телефона в Кыргызстан. Так же
+                наличные и переводы по номеру телефона и карты на такие банки
+                как: Mbank, Optima и Bakai bank.
               </p>
             </div>
           </div>
@@ -43,11 +44,12 @@ const About = () => {
                 className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-medium font-lobster text-2xl text-gray-900 py-5">
-                Подарочная упаковка
+                Дополнение к Букету
               </h2>
               <p className="leading-relaxed" style={{ height: "150px" }}>
-                А так же вы можете передать с цветами дополнительные подарки,
-                виде игрушек, шариков, тортика или фруктов и алкоголи .
+                Есть в наличии Мишки в ассортименте, клубника в шоколаде и бенто
+                тортики которые заказываются за 1-3 дня с надписями или
+                рисунками.
               </p>
             </div>
           </div>
@@ -60,11 +62,11 @@ const About = () => {
                 className="inline-block h-auto w-auto"
               />
               <h2 className="title-font font-medium font-lobster text-2xl text-gray-900 py-5">
-                Фото перед доставкой
+                Фото-отчет
               </h2>
               <p className="leading-relaxed" style={{ height: "150px" }}>
-                Отправляем в мессенджеры фотографию собранного букета перед
-                доставкой. Также можем сделать фото с цветами при вручении
+                Отправляем фото или видео отчет для отправителя. Так же можем
+                сделать фото-отчет с получателем(обговаривается заранее).
               </p>
             </div>
           </div>
@@ -81,8 +83,7 @@ const About = () => {
               </h2>
               <p className="leading-relaxed" style={{ height: "150px" }}>
                 Бесплатная доставка по Бишкеку при заказе на сумму от 5000 сом.
-                По городу 200 сом. Доставка за пределы города рассчитывается
-                автоматически из стоимости 1 км
+                По городу от 200 сом. Доставка за пределы города имеется
               </p>
             </div>
           </div>
