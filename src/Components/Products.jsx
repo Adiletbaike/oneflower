@@ -35,7 +35,7 @@ const Products = () => {
                   {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
                     CATEGORY
                   </h3> */}
-                  <h2 className="text-gray-900 h-14 title-font text-lg font-medium">
+                  <h2 className="text-gray-900 md:h-14 h-20 title-font text-lg font-medium">
                     {value.name}
                   </h2>
                   <p className="mt-1 text-nurti font-semibold italic">
