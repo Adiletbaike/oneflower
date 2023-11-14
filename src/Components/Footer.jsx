@@ -105,7 +105,7 @@ const Footer = () => {
             <img
               width="32"
               height="32"
-              src="/images/icons8-flower-96.png"
+              src="/images/logo.png"
               alt="flower"
               className="opacity-40"
             />

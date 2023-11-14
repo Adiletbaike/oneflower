@@ -32,7 +32,7 @@ const Header = () => {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-bold items-center text-gray-900 mb-4 md:mb-0">
           {/* <LuFlower2 className="text-5xl text-red-600" /> */}
-          <img width="48" height="48" src="/images/icons8-flower-96.png" alt="flower-doodle"/>
+          <img width="48" height="48" src="/images/logo.png" alt="flower-doodle"/>
           <span className="ml-3 text-3xl text-white font-bold">OneFlower</span>
         </a>
         <div

@@ -45,9 +45,9 @@ const Products = () => {
                 <div className="flex justify-start">
                   <button className="inline-flex text-black bg-green-400 hover:bg-green-500 duration-500 border-0 py-1 px-2 focus:outline-none  rounded text-sm">
                     <a
-                      href="https://996778217044"
+                      target="_blank"
+                      href={`https://wa.me/996770023478?text=Здравствуйте!%20%0A${value.name}+${value.price}%20`}
                       className="inline-flex items-center text-xs md:text-base"
-                      
                     >
                       Заказать по <BsWhatsapp className="m-1 ml-2 text-xs" />
                     </a>
@@ -70,7 +70,8 @@ const Products = () => {
             }}
             className="inline-flex text-black bg-nurti text-white duration-500 border-0 py-1.5 px-3 focus:outline-none  rounded mt-10 text-xl m-auto"
           >
-            <BsArrowRepeat className="flex items-center pt-1 pr-1 text-2xl"/>Показать еще...
+            <BsArrowRepeat className="flex items-center pt-1 pr-1 text-2xl" />
+            Показать еще...
           </button>
         </div>
       </div>
