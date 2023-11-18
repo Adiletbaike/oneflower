@@ -5,7 +5,7 @@ import { BsInstagram } from "react-icons/bs";
 const Hero = () => {
   return (
     <section
-      className="bg-nurti bg-no-repeat bg-cover bg-right text-gray-600 body-font h-screen"
+      className="bg-[url(/images/background.jpg)] bg-no-repeat bg-cover bg-center text-gray-600 body-font h-screen"
       id="hero"
     >
       <div className="container mx-auto  flex px-5 py-40 md:flex-row flex-col items-center">
